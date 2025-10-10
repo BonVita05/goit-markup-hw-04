@@ -382,3 +382,59 @@ header .container {
 .media-link:focus .media-icon {
     fill: #f4f4fd;
 }
+
+.advantages-list-item .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    width: 264px;
+    height: 112px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+}
+
+.advantages-list-item .icon {
+    fill: none;
+}
+
+.social-media-container {
+    display: flex;
+    gap: 16px;
+}
+
+.social-media-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    color: #ffffff;
+}
+
+.social-media-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-media-link:hover,
+.social-media-link:focus {
+    background-color: #31d0aa;
+}
+
+.social-media-icon {
+    fill: #f4f4fd;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-media-link:hover .media-icon,
+.social-media-link:focus .media-icon {
+    fill: #404bbf;
+}
