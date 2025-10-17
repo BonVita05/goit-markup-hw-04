@@ -281,6 +281,7 @@ ul {
 
  .footer {
     background-color: #2e2f42;
+    color: #f4f4fd;
     padding: 100px 0;
  }
 
@@ -296,6 +297,15 @@ ul {
  .footer-studio {
     color: #f4f4fd;
     line-height: 1.17
+ }
+
+ .footer-div {
+     display: flex;
+     align-items: baseline;
+ }
+
+ .footer-container {
+     margin-right: 120px;
  }
 
 h1, h2, h3, h4, p {
